@@ -1,0 +1,7 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+COPY gradient_descent.py .
+
+CMD ["python", "gradient_descent.py"]
